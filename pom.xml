@@ -22,11 +22,9 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <spring.boot-starter.parent.verison>3.0.0</spring.boot-starter.parent.verison>
-        <spring.cloud.starter.alibaba.nacos.config.version>2021.1</spring.cloud.starter.alibaba.nacos.config.version>
-        <spring.cloud.starter.alibaba.nacos.config.version>2021.1</spring.cloud.starter.alibaba.nacos.config.version>
-        <spring.cloud.starter.alibaba.nacos.discovery.version>2021.1
-        </spring.cloud.starter.alibaba.nacos.discovery.version>
-        <spring-cloud.version>2021.0.5</spring-cloud.version>
+        <spring.cloud.starter.alibaba.nacos.config.version>2022.0.0.0-RC1</spring.cloud.starter.alibaba.nacos.config.version>
+        <spring.cloud.starter.alibaba.nacos.discovery.version>2022.0.0.0-RC1</spring.cloud.starter.alibaba.nacos.discovery.version>
+        <spring-cloud.version>2022.0.0</spring-cloud.version>
         <druid.spring.boot.starter.version>1.2.15</druid.spring.boot.starter.version>
 
     </properties>
@@ -34,13 +32,13 @@
     <dependencies>
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
-            <version>${spring.cloud.starter.alibaba.nacos.config.version}</version>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+            <version>${spring.cloud.starter.alibaba.nacos.discovery.version}</version>
         </dependency>
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
-            <version>${spring.cloud.starter.alibaba.nacos.discovery.version}</version>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+            <version>${spring.cloud.starter.alibaba.nacos.config.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
